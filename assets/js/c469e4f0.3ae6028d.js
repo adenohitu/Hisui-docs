@@ -1,1 +1,0 @@
-(self.webpackChunkhisui_document=self.webpackChunkhisui_document||[]).push([[662],{6353:function(e){"use strict";e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Welcome","permalink":"/Hisui-docs/blog/welcome"},{"title":"Hello","permalink":"/Hisui-docs/blog/hello-world"},{"title":"Hola","permalink":"/Hisui-docs/blog/hola"}]}')}}]);

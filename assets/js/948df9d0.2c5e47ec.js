@@ -1,1 +1,0 @@
-(self.webpackChunkhisui_document=self.webpackChunkhisui_document||[]).push([[984],{6817:function(s){"use strict";s.exports=JSON.parse('{"allTagsPath":"/Hisui-docs/blog/tags","slug":"hola","name":"hola","count":1,"permalink":"/Hisui-docs/blog/tags/hola"}')}}]);
