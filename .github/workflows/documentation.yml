@@ -36,7 +36,7 @@ jobs:
       - name: Release to GitHub Pages
         env:
           GIT_USER: adenohitu
-          GIT_PASS:${{secrets.GITHUB_TOKEN}}
+          GIT_PASS: ${{secrets.GITHUB_TOKEN}}
         run: |
           git config --global user.name "adenohitu"
           if [ -e yarn.lock ]; then
