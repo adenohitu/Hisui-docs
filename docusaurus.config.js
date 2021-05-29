@@ -1,12 +1,12 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: "Hisui",
-  tagline: "Dinosaurs are cool",
+  tagline: "競技プログラミング支援ツール",
   url: "https://adenohitu.github.io",
   baseUrl: "/Hisui-docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "/docs/img/favicon.ico",
+  favicon: "img/favicon.ico",
   organizationName: "adenohitu", // Usually your GitHub org/user name.
   projectName: "Hisui-docs", // Usually your repo name.
   themeConfig: {
@@ -20,8 +20,8 @@ module.exports = {
         {
           type: "doc",
           docId: "intro",
-          position: "left",
-          label: "Tutorial",
+          position: "right",
+          label: "チュートリアル",
         },
         {
           href: "https://github.com/adenohitu/hisui",
@@ -59,12 +59,8 @@ module.exports = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/adenohitu/hisui",
             },
           ],
         },
@@ -79,14 +75,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+          editUrl: "https://github.com/adenohitu/Hisui-docs/blob/main/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
