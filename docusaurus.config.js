@@ -21,7 +21,7 @@ module.exports = {
           type: "doc",
           docId: "intro",
           position: "right",
-          label: "チュートリアル",
+          label: "ドキュメント",
         },
         {
           href: "https://github.com/adenohitu/hisui",
