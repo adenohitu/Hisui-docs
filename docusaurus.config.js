@@ -67,6 +67,11 @@ module.exports = {
       ],
       copyright: `Copyright © 2020-${new Date().getFullYear()} Adenohitu. Built with Docusaurus.`,
     },
+    googleAnalytics: {
+      trackingID: "G-J3X1NDP2YH",
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
+    },
   },
   presets: [
     [
@@ -87,14 +92,6 @@ module.exports = {
       },
     ],
   ],
-  plugins: ["@docusaurus/plugin-google-analytics"],
-  themeConfig: {
-    googleAnalytics: {
-      trackingID: "G-J3X1NDP2YH",
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
-  },
   i18n: {
     defaultLocale: "ja",
     locales: ["ja"],
