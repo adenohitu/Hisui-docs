@@ -73,7 +73,6 @@ module.exports = {
       anonymizeIP: true, // Should IPs be anonymized?
     },
   },
-  plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
     [
       "@docusaurus/preset-classic",
