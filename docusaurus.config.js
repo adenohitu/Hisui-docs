@@ -67,12 +67,13 @@ module.exports = {
       ],
       copyright: `Copyright © 2020-${new Date().getFullYear()} Adenohitu. Built with Docusaurus.`,
     },
-    googleAnalytics: {
+    gtag: {
       trackingID: "G-J3X1NDP2YH",
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
   },
+  plugins: ["@docusaurus/plugin-google-gtag"],
   presets: [
     [
       "@docusaurus/preset-classic",
