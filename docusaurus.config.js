@@ -23,11 +23,11 @@ module.exports = {
           position: "right",
           label: "ドキュメント",
         },
-        {
-          href: "https://github.com/adenohitu/hisui",
-          label: "GitHub",
-          position: "right",
-        },
+        // {
+        //   href: "https://github.com/adenohitu/hisui",
+        //   label: "GitHub",
+        //   position: "right",
+        // },
       ],
     },
     footer: {
@@ -45,10 +45,10 @@ module.exports = {
         {
           title: "Community",
           items: [
-            {
-              label: "Discord",
-              href: "https://discord.gg/d59sCzYkqy",
-            },
+            // {
+            //   label: "Discord",
+            //   href: "https://discord.gg/d59sCzYkqy",
+            // },
             {
               label: "Twitter",
               href: "https://twitter.com/adenohitu",
@@ -59,13 +59,17 @@ module.exports = {
           title: "More",
           items: [
             {
+              label: "Introduce",
+              href: "https://adenohitu.github.io/Hisui-introduce/",
+            },
+            {
               label: "GitHub",
               href: "https://github.com/adenohitu/hisui",
             },
           ],
         },
       ],
-      copyright: `Copyright © 2020-${new Date().getFullYear()} Adenohitu. Built with Docusaurus.`,
+      copyright: `Copyright © 2020-${new Date().getFullYear()} Adenohitu.`,
     },
     gtag: {
       trackingID: "G-J3X1NDP2YH",
