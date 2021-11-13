@@ -21,4 +21,4 @@ Hisui は**開発段階**です。さまざまなエラーが発生すること�
 
 ### Discord に参加する
 
-[![Discord](https://badgen.net/badge/icon/Discordに参加する?icon=discord&label)](#)
+[![Discord](https://badgen.net/badge/icon/招待を受ける?icon=discord&label)](#)
