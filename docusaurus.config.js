@@ -23,11 +23,11 @@ const config = {
           position: "right",
           label: "ドキュメント",
         },
-        // {
-        //   href: "https://github.com/adenohitu/hisui",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
+        {
+          href: "https://github.com/adenohitu/hisui",
+          label: "GitHub",
+          position: "right",
+        },
       ],
     },
     footer: {
@@ -40,15 +40,19 @@ const config = {
               label: "Tutorial",
               to: "/docs/intro",
             },
+            {
+              label: "Alpha Test",
+              to: "/docs/alpha",
+            },
           ],
         },
         {
           title: "Community",
           items: [
-            // {
-            //   label: "Discord",
-            //   href: "https://discord.gg/d59sCzYkqy",
-            // },
+            {
+              label: "Discord",
+              href: "https://discord.gg/H2R6HrDvuc",
+            },
             {
               label: "Twitter",
               href: "https://twitter.com/adenohitu",
@@ -59,7 +63,7 @@ const config = {
           title: "More",
           items: [
             {
-              label: "Introduce",
+              label: "Introduce Page",
               href: "https://adenohitu.github.io/Hisui-introduce/",
             },
             {
