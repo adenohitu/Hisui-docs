@@ -14,7 +14,7 @@ const config = {
       title: "Hisui-使い方",
       logo: {
         alt: "Hisui Logo",
-        src: "img/logo.svg",
+        src: "img/logo512.png",
       },
       items: [
         {
