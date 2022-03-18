@@ -1,5 +1,5 @@
-/** @type {import('@docusaurus/types').DocusaurusConfig} */
-module.exports = {
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "Hisui",
   tagline: "競技プログラミング支援ツール",
   url: "https://adenohitu.github.io",
@@ -71,16 +71,16 @@ module.exports = {
       ],
       copyright: `Copyright © 2020-${new Date().getFullYear()} Adenohitu.`,
     },
-    gtag: {
-      trackingID: "G-J3X1NDP2YH",
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
   },
   presets: [
     [
       "@docusaurus/preset-classic",
       {
+        gtag: {
+          trackingID: "G-J3X1NDP2YH",
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+        },
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -107,3 +107,5 @@ module.exports = {
     },
   },
 };
+
+module.exports = config;

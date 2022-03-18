@@ -1,12 +1,10 @@
 ---
 sidebar_position: 3
-title: スニペット
+title: スニペット（カスタム補完機能）
 ---
 
-# スニペット（カスタム補完機能）
-
 スニペットに**よく使う記法**などを事前に設定することで、コーディングする時に呼び出し,補完することができます。  
-また VSCode と似た記法になっており、条件を満たせば VSCode からスニペットをそのまま移植、または VSCode へスニペットを移植することもできます。
+またVSCodeと似た記法になっており、条件を満たせば VSCode からスニペットをそのまま移植、または VSCode へスニペットを移植することもできます。
 
 <details>
   <summary>今後の機能の追加</summary>
@@ -17,7 +15,7 @@ title: スニペット
 </details>
 
 例:「f」と打って for のスニペットが呼び出されている様子
-![img](./assets/snippet1.png)
+![img](./assets/snippet/snippet1.png)
 
 <details>
   <summary>VSCodeからの移植方法（応用）</summary>
@@ -29,13 +27,13 @@ title: スニペット
 
 #### 1. 右上の設定マークをクリック
 
-![img](./assets/snippet2.png)
+![img](./assets/snippet/snippet2.png)
 
 #### 2. 設定リストの中からスニペットの設定を選択
 
 #### 3. 言語を指定したのち、下の記入例に従ってスニペットを設定する
 
-![img](./assets/snippet3.png)
+![img](./assets/snippet/snippet3.png)
 
 #### 4. 保存する
 
