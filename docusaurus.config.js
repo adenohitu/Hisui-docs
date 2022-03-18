@@ -54,7 +54,7 @@ const config = {
               href: "https://discord.gg/H2R6HrDvuc",
             },
             {
-              label: "Twitter",
+              label: "Twitter(Adenohitu)",
               href: "https://twitter.com/adenohitu",
             },
           ],
