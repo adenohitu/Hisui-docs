@@ -1,0 +1,39 @@
+---
+sidebar_position: 11
+title: ローカルコードテスト（開発中）
+---
+
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+ローカル環境にインストールされたコンパイラー・ランナーを使ってテストを実行します。
+
+:::caution
+
+この機能は、現在開発中です。利用する際は、最新の注意を払ってください。
+また現在C++のみ対応しています。
+
+:::
+
+C++コンパイラーのPathを指定します
+例: "g++" , /usr/bin/g++
+
+<Zoom>
+  <img
+    src={require("./assets/local-judge/1.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+モードをLocalに指定
+
+<Zoom>
+  <img
+    src={require("./assets/local-judge/2.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+通常どおりテストを実行するとローカルで実行されます。
