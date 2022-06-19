@@ -41,8 +41,8 @@ const config = {
               to: "/docs/intro",
             },
             {
-              label: "Alpha Test",
-              to: "/docs/alpha",
+              label: "Bata Test",
+              to: "/docs/bata",
             },
           ],
         },
