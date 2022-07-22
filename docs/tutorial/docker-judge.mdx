@@ -1,0 +1,109 @@
+---
+sidebar_position: 11
+title: コードテスト仮想マシン（Docker）
+---
+
+import Zoom from "react-medium-image-zoom";
+import "react-medium-image-zoom/dist/styles.css";
+
+コードテストを実行するためのDockerコンテナを実行します。
+
+<details>
+  <summary>Docker以外の仮想環境への対応</summary>
+  現在、Dockerのみ対応しています。今後WSLなどの他の仮想マシンにも対応していく予定です。
+</details>
+
+:::caution
+
+この機能は、現在開発中です。利用する際は、最新の注意を払ってください。  
+また、**既存のDockerの環境に影響を与える可能性**があります。注意してください  
+また現在C++とPython3に対応しています。  
+現在、実行時間、メモリは仮の値を表示させていて、正しく表示されていません
+
+:::
+
+### Docker Desktopをインストールする
+
+<details>
+  <summary>Docker Desktopについて</summary>
+  Docker Desktopのライセンス形態について確認してください
+  <br />
+  <a href="https://www.docker.com/pricing/">https://www.docker.com/pricing/</a>
+</details>
+つぎのURLから、OSに合ったものをダウンロードし、インストールしてください。
+
+[https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
+
+この画面が出たら準備完了です。👍
+
+<Zoom>
+  <img
+    src={require("./assets/docker-judge/2.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+### Dockerコンテナ(adenohitu/hisui-judge-docker)を起動する
+
+ジャッジに使う仮想マシンを起動します。
+
+Hisuiを起動し、右のバーのアイコンをして設定ツールを開きます。
+
+<Zoom>
+  <img
+    src={require("./assets/docker-judge/3.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+#### 1. Dockerのインストール状況を確認します。
+
+「Dockerのインストール状況をチェックする」をクリック  
+OKと出て次へボタンが押せるようになったら、成功です。👍
+
+<Zoom>
+  <img
+    src={require("./assets/docker-judge/4.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+#### 2. Dockerコンテナを起動します。
+
+「ジャッジコンテナの起動状況を確認する」を押します。
+すでに起動されていなければ、「ジャッジコンテナを起動する」が表示され、これを押すとコンテナが起動します。
+
+<Zoom>
+  <img
+    src={require("./assets/docker-judge/5.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+次のようにリストにコンテナが表示されれば完了です。次へのボタンが押せるようになります。👍
+
+<Zoom>
+  <img
+    src={require("./assets/docker-judge/6.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+#### 3.ジャッジモードを変更します。
+
+<Zoom>
+  <img
+    src={require("./assets/local-judge/2.png").default}
+    alt="user data"
+    width="500"
+  />
+</Zoom>
+
+この設定後、通常どおりテストを実行するとDockerコンテナ内で実行されます。
+
+**これで設定は完了です！**お疲れ様でした!
